@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'lunaregular';
+    src: url('./fonts/luna-webfont.woff2') format('woff2'),
+         url('./fonts/luna-webfont.woff') format('woff'),
+         url('./fonts/luna.ttf');
+    
+}
+
+html{
+    font-family: 'arial';
+    font-size: 16px;
+}
+.font360{
+    font-size: 24px;
+}
+
+h1{
+    color:black;
+    font-size:24px;
+    font-family:'lunaregular';
+    font-weight: 100 ;
+    font-style: italic ;
+}
+
+a{
+    color:white;
+    text-decoration: none;
+    padding: 50px;
+
+}
+a:hover{
+    color:rgba(255,182,193);
+}
+h2{
+    color: black;
+    font-family: 'Lobster', cursive;
+}
+#hero{
+    background: url('./fond.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 1%;
+}
+
+nav{
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    padding-bottom: 10px;
+}
+#bandeau{
+    background-color: rgba(255, 255, 255, 0.5);
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+#contenu{
+    text-align: center;
+    background-color: rgba(0,0,0,0.5);
+    padding: 5%; 
+
+}
+#contenu a{
+    Color: red;
+    border: 2px solid red;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+    transition: ease 2s;
+}
+#contenu a:hover{
+    color: white;
+    background-color:rgba(178,32,19,0.8);
+}
+#contenu img {
+    width: 100px;
+}
+#contenu img:hover{
+    transform: rotate(360deg) scale(1.5);
+    transition: 0.2s;
+}
+
+#apropos{
+    display: flex;
+    background: rgba(173, 216, 230,0.5)
+}
+
+#apropos_image img{
+    width: 100px;
+    margin: 10px
+}
+#apropos_texte{
+    margin:auto;
+}
