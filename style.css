@@ -96,3 +96,9 @@ nav{
 #apropos_texte{
     margin:auto;
 }
+.white{
+    color:white;
+}
+.white:hover{
+    color:rgba(255,182,193);
+}
